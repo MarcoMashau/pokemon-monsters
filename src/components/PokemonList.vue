@@ -87,11 +87,11 @@ export default {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 10px;
   width: 100%;
-  max-width: 510px;
+  max-width: 1000px;
 
   article {
     height: 150px;
-    background-color: #efefef;
+    background-color: transparent;
     text-align: center;
     text-transform: capitalize;
     border-radius: 5px;
