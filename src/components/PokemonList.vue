@@ -87,7 +87,7 @@ export default {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 10px;
   width: 100%;
-  max-width: 1000px;
+  max-width: 800px;
 
   article {
     height: 150px;

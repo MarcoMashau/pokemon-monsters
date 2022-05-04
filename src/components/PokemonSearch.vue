@@ -30,7 +30,6 @@ export default {
   width: 100%;
   max-width: 510px;
   padding-bottom: 20px;
-
   input {
     border: none;
     outline: none;
@@ -40,7 +39,6 @@ export default {
     font-size: 1rem;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
   }
-
   i {
     position: absolute;
     top: 10px;
