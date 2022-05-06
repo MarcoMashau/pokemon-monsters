@@ -29,6 +29,7 @@ export default {
       imageUrl:
         "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/",
       apiUrl: "https://pokeapi.co/api/v2/pokemon/",
+      //apiUrl: "http://localhost:7000/api/pokemon/",
       pokemonUrl: "",
       showDetail: false,
     };
