@@ -27,11 +27,12 @@ export default {
       pokemons: [],
       nextUrl: "",
       currentUrl: "",
+      apiLink: "http://localhost:8080/api/pokemon/",
     };
   },
   methods: {
     fetchData() {
-      let req = new Request(this.currentUrl);
+      let req = new Request(this.apiLink);
       fetch(req)
         .then((resp) => {
           if (resp.status === 200) return resp.json();
